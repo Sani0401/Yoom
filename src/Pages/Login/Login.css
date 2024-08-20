@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.Login__mainContainer {
+  height: 100vh;
+  width: 100vw;
+  background-color: #021526;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+
+  font-style: normal;
+}
+
+.Login__contentContainer {
+  height: 600px;
+  width: 450px;
+  background-color: #201e43;
+  border-radius: 10px;
+}
+
+.Login__InnerContainer {
+  margin: 20px;
+}
+.Login__contentContainer__first {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.Login__contentContainer img {
+  height: 50px;
+  width: 120px;
+}
+
+.Login__contentContainer__title {
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+  margin: 0;
+}
+
+.Login__contentContainer__para {
+  color: grey;
+  font-size: 15px;
+  margin: 0;
+}
+
+.Login__contentContainer__googleButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 10px;
+  border: 1px solid #f6f5f2;
+  width: 350px;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  
+}
+
+.Login__contentContainer__googleButton:hover{
+    background-color: white;
+    color: black;
+}
+
+.Login__contentContainer__googleButton img {
+  height: 30px;
+  width: 30px;
+}
+
+
+.Login__contentContainer__dividerCotainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+    color: #F0EBE3;
+    margin-right: 30px;
+}
+
+.firstContainer{
+    height: 1px;
+    background-color: white;
+    width: 170px;
+}
+.Login__contentContainer__inputContainer{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: grey;
+}
+
+.Login__contentContainer__inputContainer span{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.Login__contentContainer__inputContainer input{
+    height: 35px;
+    width: 330px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+.Login__contentContainer__inputContainer button{
+    width: 336px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid blue;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.Login__contentContainer__inputContainer button:hover{
+    background-color: #F0EBE3;
+    color: black;
+}
+
+.Login__footer{
+    color: gray;
+    margin-top: 12px;
+}
+
+a{
+    color: white;
+}
