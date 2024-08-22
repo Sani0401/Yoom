@@ -118,7 +118,7 @@
     background-color: blue;
     color: white;
     border-radius: 5px;
-    border: 1px solid blue;
+    border: 1px solid #1F316F;
     cursor: pointer;
     margin-top: 15px;
 }
@@ -129,7 +129,7 @@
 }
 
 .Login__footer{
-    color: gray;
+    color: #1A4870;
     margin-top: 12px;
 }
 

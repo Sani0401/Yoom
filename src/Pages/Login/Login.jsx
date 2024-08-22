@@ -1,7 +1,18 @@
 import React from "react";
 import "./Login.css";
 import { Images } from "../../Exports/Images";
+import supabase from "../../Config/supabaseConfig";
 function Login() {
+  const handleGoogleSignin =async()=>{
+    const user = await supabase.auth.signInWithOAuth({
+     provider: 'google',
+      options: {
+        redirectTo: `http://localhost:3000/Home`,
+      },
+    })
+    console.log("This is the user data: ", user);
+    
+  }
   return (
     <div className="Login__mainContainer">
       <div className="Login__contentContainer">
@@ -15,7 +26,7 @@ function Login() {
             </p>
           </div>
 
-          <div className="Login__contentContainer__googleButton">
+          <div className="Login__contentContainer__googleButton" onClick={handleGoogleSignin}>
             <img src={Images.googleIcon} alt="Google Icon Here" />{" "}
             <p>Continue with google</p>
           </div>
