@@ -1,0 +1,35 @@
+.NavigationBar__mainContainer {
+  width: 350px;
+  height: 87.5vh;
+  background-color: rgb(28 31 46);
+}
+
+.NavigationBar__mainContainer p {
+  color: white;
+  margin: 0;
+}
+
+.NavigationBar__mainContainer__innerContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.NavigationBar__mainContainer__innerContainer span {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ margin-top: 30px;
+ cursor: pointer;
+ gap: 20px;
+}
+
+
+.NavigationBar__mainContainer__innerContainer p{
+    width: 110px;
+}
