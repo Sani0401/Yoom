@@ -7,6 +7,7 @@ function HeaderBar() {
   
   return (
    <div className='HeaderBar__mainContainer'>
+    <div className='HeaderBar__mainContainer__innerContainer'>
     <img src={Images.logoIcon} className='HeaderBar__logoImage'/>
     <img
   src={userDetails.user.user_metadata.avatar_url}
@@ -16,6 +17,8 @@ function HeaderBar() {
     console.log("Failed to load avatar image.");
   }}
 />
+    </div>
+    
    </div>
   )
 }

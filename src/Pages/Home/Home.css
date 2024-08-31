@@ -1,3 +1,24 @@
-.Home__NavigationBar{
-    
-}
+/* Home.css */
+.Home__mainContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .Home__contentContainer {
+    display: flex;
+    flex: 1; /* Take the remaining space after the header */
+  }
+  
+  .Home__NavigationBar {
+    width: 350px; /* Fixed width for the navigation bar */
+    height: 100%; /* Full height to match content */
+  }
+  
+  .Home__content {
+    flex: 1; /* Take the remaining width */
+    padding: 20px; /* Add some padding for spacing */
+    background-color: #f0f0f0; /* Example background color for content area */
+    overflow-y: auto; /* Enable scrolling if content overflows vertically */
+  }
+  

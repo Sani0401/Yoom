@@ -1,5 +1,5 @@
 .HeaderBar__mainContainer {
-  height: 80px;
+  height: 100px;
   width: 100vw;
   display: flex;
   flex-direction: row;
@@ -19,4 +19,13 @@
   border-radius: 50%;
   margin-right: 10px;
   cursor: pointer;
+}
+
+.HeaderBar__mainContainer__innerContainer{
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
 }
